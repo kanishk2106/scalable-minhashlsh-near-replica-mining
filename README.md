@@ -22,7 +22,7 @@ The repository also includes optional scripts for chart generation and scaffold 
 
 ```
 Assignment3/
-├── Assignment3_aws.py              # Main PySpark pipeline
+├── MinHash.py              # Main PySpark pipeline
 ├── generate_charts.py              # Optional chart generation
 ├── scaffold_analysis_simple.py     # Optional scaffold analysis
 ├── README.md                       # This file
@@ -60,7 +60,7 @@ gsutil cp Assignment3_aws.py gs://<bucket>/code/
 
 ```bash
 gcloud dataproc jobs submit pyspark \
-  gs://<bucket>/code/Assignment3_aws.py \
+  gs://<bucket>/code/MinHash.py \
   --cluster=<cluster-name> \
   --region=<region> \
   --properties="spark.executor.memory=12g,\
