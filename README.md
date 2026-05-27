@@ -1,4 +1,4 @@
-# Assignment 3: LSH-Based Near-Replica Mining for Molecular Fingerprints
+# LSH-Based Near-Replica Mining for Molecular Fingerprints
 
 This project implements a scalable PySpark pipeline for performing near-duplicate molecular detection using MinHash Locality-Sensitive Hashing (LSH).
 The goal is to efficiently find molecules with high Tanimoto similarity at scale using distributed processing.
